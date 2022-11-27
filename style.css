@@ -1,0 +1,20 @@
+
+.container {
+    font-family: arial, helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    text-shadow: 4px 4px 0 black; /* this helps add an outline to the numbers so they can stand out more*/
+    -webkit-text-stroke: 2px white;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background:url('among-us-twerk.gif'); /* this helps import the gif in the background, take this off goes back to default to black*/
+    background-color: black;
+}
